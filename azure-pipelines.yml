@@ -9,7 +9,7 @@ trigger:
 pool: Agent
 
 steps:
-- task: Maven@4
+- task: demoagent
   inputs:
     mavenPomFile: 'pom.xml'
     mavenVersionOption: 'Default'
